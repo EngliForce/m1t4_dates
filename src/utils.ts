@@ -37,11 +37,11 @@ export function getCorrectAnswers(day: number, monthIndex: number, dayOfWeekInde
   const ordinal = ORDINALS[day];
   const dayName = DAYS[dayOfWeekIndex];
 
-  // British: [Day], the [ordinal] of [month]
-  const british = `${dayName}, the ${ordinal} of ${month}`;
+  // British: [Day] the [ordinal] of [month]
+  const british = `${dayName} the ${ordinal} of ${month}`;
   
-  // American: [Day], [month] the [ordinal]
-  const american = `${dayName}, ${month} the ${ordinal}`;
+  // American: [Day], [month] [ordinal]
+  const american = `${dayName}, ${month} ${ordinal}`;
 
   return { british, american };
 }

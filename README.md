@@ -1,59 +1,63 @@
-# ⚡ EngliForce: Apostrophe Cyber-Lab
+# ⚡ EngliForce: Date Cyber-Lab
 
-**EngliForce: Apostrophe Cyber-Lab** is een interactieve full-stack webapplicatie ontworpen voor leerlingen om de Engelse datum-notatie te beheersen. Met een uniek neon-futuristisch "Cyber-Lab" thema en een real-time scorebord, is deze app perfect voor gebruik in de klas op een digibord of individueel op mobiele devices.
+**EngliForce: Date Cyber-Lab** is an interactive full-stack web application designed for students to master English date notation. With a unique neon-futuristic "Cyber-Lab" theme and a real-time leaderboard, this app is perfect for classroom use on an interactive whiteboard or individually on mobile devices.
 
 ![Cyber-Lab Theme](https://picsum.photos/seed/cyberpunk/800/400?blur=2)
 
-## 🚀 Kenmerken
+## 🚀 Features
 
--   **Cyber-Lab Esthetiek:** Een meeslepende interface met neon-accenten, CRT-scanlines en interactieve gloed-effecten.
--   **Dual-Style Training:** Oefen zowel de **Britse** (*Monday, the first of January*) als de **Amerikaanse** (*Monday, January the first*) gesproken datum-notatie.
--   **Real-time Scorebord:** Dankzij WebSockets worden scores direct bijgewerkt op alle verbonden schermen. Ideaal voor klassikale competities!
--   **Nederlandse Interface:** Volledig Nederlandstalige instructies en feedback, met Engelse focus op de antwoorden.
--   **Responsief Design:** Werkt perfect op desktops, tablets en smartphones.
+-   **Cyber-Lab Aesthetic:** An immersive interface with neon accents, CRT scanlines, and interactive glow effects.
+-   **Dual-Style Training:** Practice both **British** (*Monday, the first of January*) and **American** (*Monday, January the first*) spoken date notation.
+-   **10-Question Test:** Every session consists of 10 random dates to test your skills.
+-   **Speed Scoring:** The faster you answer, the more points you get! Correct answers always earn points.
+-   **Real-time Leaderboard:** Thanks to WebSockets, scores are updated instantly on all connected screens. Great for classroom competitions!
+-   **A2 Level English:** Simple instructions and feedback designed for English learners.
+-   **Responsive Design:** Works perfectly on desktops, tablets, and smartphones.
 
 ## 🛠️ Tech Stack
 
 -   **Frontend:** React 18+, Vite, Tailwind CSS
--   **Animaties:** Motion (framer-motion)
+-   **Animations:** Motion (framer-motion)
 -   **Icons:** Lucide React
--   **Backend:** Node.js met Express
+-   **Backend:** Node.js with Express
 -   **Real-time:** WebSockets (ws)
--   **Typografie:** Orbitron & Lexend (via Google Fonts)
+-   **Typography:** Orbitron & Lexend (via Google Fonts)
 
-## 📦 Installatie & Setup
+## 📦 Installation & Setup
 
-Volg deze stappen om het project lokaal te draaien:
+Follow these steps to run the project locally:
 
-1.  **Clone de repository:**
+1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/GEBRUIKERSNAAM/engliforce-cyber-lab.git
-    cd engliforce-cyber-lab
+    git clone https://github.com/YOUR_USERNAME/engliforce-date-cyber-lab.git
+    cd engliforce-date-cyber-lab
     ```
 
-2.  **Installeer de afhankelijkheden:**
+2.  **Install dependencies:**
     ```bash
     npm install
     ```
 
-3.  **Start de development server:**
+3.  **Start the development server:**
     ```bash
     npm run dev
     ```
 
-4.  **Open de applicatie:**
+4.  **Open the application:**
     Ga naar `http://localhost:3000` in je browser.
 
-## 🎮 Hoe te spelen
+## 🎮 How to Play
 
-1.  **Identificatie:** Voer je naam in op het startscherm om de sessie te initialiseren.
-2.  **Kies je Modus:** Selecteer `BRITISH_MODE` of `AMERICAN_MODE` afhankelijk van de opdracht.
-3.  **Data-invoer:** Vertaal de getoonde Nederlandse datum naar de volledige Engelse uitspraak. Let op: hoofdletters en komma's zijn essentieel voor systeem-stabiliteit!
-4.  **Scorebord:** Bekijk de `LIVE_DATA_FEED` om je positie in de ranglijst te zien.
+1.  **Identification:** Enter your name on the start screen to begin.
+2.  **Start Test:** Click "Start Test" to begin your 10-question session.
+3.  **Choose Your Style:** Select `BRITISH_STYLE` or `AMERICAN_STYLE` based on the task.
+4.  **Data Entry:** Translate the Dutch date shown into the full English spoken version. Note: capitalization and commas are essential!
+5.  **Be Fast:** Answer quickly to get a speed bonus.
+6.  **Leaderboard:** Check the `LIVE_DATA_FEED` to see your rank.
 
-## 📄 Licentie
+## 📄 License
 
-Dit project is gelicenseerd onder de MIT-licentie. Zie het `LICENSE` bestand voor details.
+This project is licensed under the MIT License. See the `LICENSE` file for details.
 
 ---
-*Gemaakt voor het onderwijs // EngliForce Systems 2026*
+*Created for education // EngliForce Systems 2026*
